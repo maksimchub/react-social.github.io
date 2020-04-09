@@ -1,31 +1,146 @@
+a {
+  color: black;
+  text-decoration: none;
+}
+
 .app-wrapper {
-  margin: 0 auto;
-  display: grid;
-  width: 1200px;
-  grid-template-areas:
-  "h h"
-  "n c";
-
-   grid-template-rows: 60px 1fr;
-    grid-template-columns: 2fr 10fr;
-    /* grid-gap: 10px; */
-
+  display: block;
+  margin-top: 40px;
+  margin-left: 250px;
+  margin-right: 250px;
 }
 
 .header {
-  grid-area: h;
-  background-color: green;
-}
-.header img {
-  width: 20px;
+  display: block;
+  margin-bottom: 20px;
+  background-color: #fff5e6;
+  border-radius: 10px;
 }
 
-.nav {
-  grid-area: n;
-  background-color: burlywood;
+.header img {
+  width: 50px;
+  height: 50px;
 }
 
 .content {
-  grid-area: c;
-  background-color: cornflowerblue;
+  display: flex;
+}
+
+.nav {
+  width: 10%;
+  background-color: #fff5e6;
+  padding: 20px 20px 20px 20px;
+  margin-right: 10px;
+  border-radius: 10px;
+}
+
+.nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav ul li {
+  padding: 5px 0;
+  border-radius: 5px;
+}
+
+.nav ul li a {
+  font-size: 17px;
+  padding-left: 10px;
+  color: #05314b;
+}
+
+.nav ul li:hover {
+  -webkit-box-shadow: 0px 0px 5px 0px rgba(0,055,0,011);
+  box-shadow: 0px 0px 5px 0px rgba(0,055,0,011);
+  cursor: pointer;
+}
+
+.settings {
+  margin-top: 20px;
+}
+
+.main-content {
+  width: 90%;
+  border-radius: 10px;
+}
+
+.photo {
+  height: 100px;
+  margin-bottom: 20px;
+  background-color: #fff5e6;
+  border-radius: 10px;
+}
+
+.photo img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+
+.icon-profile {
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 20px;
+  border-radius: 50%;
+  border: 1px solid #05314b;
+  padding: 10px;
+}
+
+.icon-profile img {
+  width: 50px;
+  height: 50px;
+}
+
+.descript {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.descript p {
+  margin: 0;
+}
+
+.name-profile {
+  display: block;
+  font-size: 20px;
+  font-weight: bold;
+  color: #05314b;
+  margin-bottom: 10px;
+}
+
+.my-posts h3 {
+  font-weight: normal;
+  font-size: 30px;
+}
+
+.news {
+  width: 100%;
+  border: none;
+  background-color: rgba(115, 115, 115, 0.2);
+  border-radius: 10px;
+  padding: 10px 10px 10px 20px;
+  outline: none;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+}
+
+.button {
+  font-weight: bold;
+  font-size: 15px;
+  border: none;
+  background-color: transparent;
+  width: 100%;
+  max-width: 150px;
+  padding: 10px 0;
+  border-radius: 5px;
+  outline: none;
+  cursor: pointer;
+  border: 1px solid black;
+}
+
+.button:hover {
+  -webkit-box-shadow: 0px 0px 5px 0px rgba(0,055,0,011);
+  box-shadow: 0px 0px 5px 0px rgba(0,055,0,011);
 }
