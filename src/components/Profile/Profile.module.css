@@ -46,38 +46,3 @@
     color: #05314b;
     margin-bottom: 10px;
 }
-
-.myposts h3 {
-    font-weight: normal;
-    font-size: 30px;
-}
-
-.news {
-    width: 100%;
-    border: none;
-    background-color: rgba(115, 115, 115, 0.2);
-    border-radius: 10px;
-    padding: 10px 10px 10px 20px;
-    outline: none;
-    box-sizing: border-box;
-    margin-bottom: 20px;
-}
-
-.button {
-    font-weight: bold;
-    font-size: 15px;
-    border: none;
-    background-color: transparent;
-    width: 100%;
-    max-width: 150px;
-    padding: 10px 0;
-    border-radius: 5px;
-    outline: none;
-    cursor: pointer;
-    border: 1px solid black;
-}
-
-.button:hover {
-    -webkit-box-shadow: 0px 0px 5px 0px rgba(0,055,0,011);
-    box-shadow: 0px 0px 5px 0px rgba(0,055,0,011);
-}

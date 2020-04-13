@@ -1,5 +1,6 @@
 import React from 'react';
 import pc from './Profile.module.css';
+import MyPosts from "./MyPosts/MyPosts";
 
 const Profile = () => {
     return (
@@ -17,15 +18,7 @@ const Profile = () => {
                     <p>Web site: <span>www.piggy.com</span></p>
                 </div>
             </div>
-            <div className={pc.myposts}>
-                <h3>My posts</h3>
-                <textarea className={pc.news} id="" rows="5" placeholder="your news"></textarea>
-                <button type="button" className={pc.button}>SEND</button>
-            </div>
-            <div>
-                <p>hey world</p>
-                <p>hey world 2</p>
-            </div>
+            <MyPosts/>
         </div>
     )
 }
