@@ -1,17 +1,17 @@
 import React from 'react';
-import pc from './Profile.module.css';
+import s from './Profile.module.css';
 import MyPosts from "./MyPosts/MyPosts";
 
 const Profile = () => {
     return (
-        <div className={pc.maincontent}>
-            <div className={pc.photo}><img src="https://look.com.ua/pic/201210/1920x1080/look.com.ua-60526.jpg" alt=""/></div>
+        <div>
+            <div className={s.photo}><img src="https://look.com.ua/pic/201210/1920x1080/look.com.ua-60526.jpg" alt=""/></div>
             <div>
-                <div className={pc.iconprofile}>
+                <div className={s.iconprofile}>
                     <img src="https://icons.iconarchive.com/icons/diversity-avatars/avatars/1024/batman-icon.png" alt=""/>
                 </div>
-                <div className={pc.descript}>
-                    <strong className={pc.nameprofile}>Dmitry K.</strong>
+                <div className={s.descript}>
+                    <strong className={s.nameprofile}>Dmitry K.</strong>
                     <p>Date of Birth: <span>2 january</span></p>
                     <p>City: <span>Kharkov</span></p>
                     <p>Education: <span>BSU 11'</span></p>

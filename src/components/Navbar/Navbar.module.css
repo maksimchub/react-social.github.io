@@ -1,8 +1,7 @@
 .nav {
-    width: 10%;
+    grid-area: navbar;
     background-color: #fff5e6;
     padding: 20px 20px 20px 20px;
-    margin-right: 10px;
     border-radius: 10px;
 }
 

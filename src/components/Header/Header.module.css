@@ -1,7 +1,6 @@
 .header {
-    display: block;
-    margin-bottom: 20px;
     background-color: #fff5e6;
+    grid-area: header;
     border-radius: 10px;
 }
 
