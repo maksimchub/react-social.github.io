@@ -22,10 +22,16 @@
     color: #05314b;
 }
 
+.nav ul li a.activeLink {
+    color: brown;
+    font-weight: bold;
+}
+
 .nav ul li:hover {
     -webkit-box-shadow: 0px 0px 5px 0px rgba(0,055,0,011);
     box-shadow: 0px 0px 5px 0px rgba(0,055,0,011);
     cursor: pointer;
+    background-color: #fff;
 }
 
 .settings {
